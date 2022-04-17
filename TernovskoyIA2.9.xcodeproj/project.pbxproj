@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CD476060EBB66A0D1C61770 /* Pods_TernovskoyIA2_9.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAEA724818FC679099A93EBB /* Pods_TernovskoyIA2_9.framework */; };
 		310EB97E280B0022000B9E4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310EB97D280B0022000B9E4E /* AppDelegate.swift */; };
 		310EB980280B0022000B9E4E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310EB97F280B0022000B9E4E /* SceneDelegate.swift */; };
 		310EB982280B0022000B9E4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310EB981280B0022000B9E4E /* ViewController.swift */; };
 		310EB985280B0022000B9E4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 310EB983280B0022000B9E4E /* Main.storyboard */; };
 		310EB987280B0024000B9E4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 310EB986280B0024000B9E4E /* Assets.xcassets */; };
 		310EB98A280B0024000B9E4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 310EB988280B0024000B9E4E /* LaunchScreen.storyboard */; };
+		31AA3530280B013A008B8EAE /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AA352F280B013A008B8EAE /* Animation.swift */; };
+		31AA3532280B0148008B8EAE /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AA3531280B0148008B8EAE /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,11 @@
 		310EB986280B0024000B9E4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		310EB989280B0024000B9E4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		310EB98B280B0025000B9E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31AA352F280B013A008B8EAE /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		31AA3531280B0148008B8EAE /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		9A81CF559EB3031ED72F5D8B /* Pods-TernovskoyIA2.9.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TernovskoyIA2.9.release.xcconfig"; path = "Target Support Files/Pods-TernovskoyIA2.9/Pods-TernovskoyIA2.9.release.xcconfig"; sourceTree = "<group>"; };
+		AAEA724818FC679099A93EBB /* Pods_TernovskoyIA2_9.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TernovskoyIA2_9.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9185291BE3956DAB0F511F4 /* Pods-TernovskoyIA2.9.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TernovskoyIA2.9.debug.xcconfig"; path = "Target Support Files/Pods-TernovskoyIA2.9/Pods-TernovskoyIA2.9.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CD476060EBB66A0D1C61770 /* Pods_TernovskoyIA2_9.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +51,8 @@
 			children = (
 				310EB97C280B0022000B9E4E /* TernovskoyIA2.9 */,
 				310EB97B280B0022000B9E4E /* Products */,
+				DD43D24DB0280274E0444266 /* Pods */,
+				9126EF53DEED52E2BC3BC6BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,11 +71,30 @@
 				310EB97F280B0022000B9E4E /* SceneDelegate.swift */,
 				310EB981280B0022000B9E4E /* ViewController.swift */,
 				310EB983280B0022000B9E4E /* Main.storyboard */,
+				31AA352F280B013A008B8EAE /* Animation.swift */,
+				31AA3531280B0148008B8EAE /* DataManager.swift */,
 				310EB986280B0024000B9E4E /* Assets.xcassets */,
 				310EB988280B0024000B9E4E /* LaunchScreen.storyboard */,
 				310EB98B280B0025000B9E4E /* Info.plist */,
 			);
 			path = TernovskoyIA2.9;
+			sourceTree = "<group>";
+		};
+		9126EF53DEED52E2BC3BC6BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAEA724818FC679099A93EBB /* Pods_TernovskoyIA2_9.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD43D24DB0280274E0444266 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9185291BE3956DAB0F511F4 /* Pods-TernovskoyIA2.9.debug.xcconfig */,
+				9A81CF559EB3031ED72F5D8B /* Pods-TernovskoyIA2.9.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 310EB98E280B0025000B9E4E /* Build configuration list for PBXNativeTarget "TernovskoyIA2.9" */;
 			buildPhases = (
+				1AAE59A46F6DECC9ACCAD421 /* [CP] Check Pods Manifest.lock */,
 				310EB976280B0022000B9E4E /* Sources */,
 				310EB977280B0022000B9E4E /* Frameworks */,
 				310EB978280B0022000B9E4E /* Resources */,
+				5C27664EB3AA936BA42E51DD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +165,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1AAE59A46F6DECC9ACCAD421 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TernovskoyIA2.9-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C27664EB3AA936BA42E51DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TernovskoyIA2.9/Pods-TernovskoyIA2.9-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TernovskoyIA2.9/Pods-TernovskoyIA2.9-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TernovskoyIA2.9/Pods-TernovskoyIA2.9-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		310EB976280B0022000B9E4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				310EB982280B0022000B9E4E /* ViewController.swift in Sources */,
+				31AA3532280B0148008B8EAE /* DataManager.swift in Sources */,
 				310EB97E280B0022000B9E4E /* AppDelegate.swift in Sources */,
+				31AA3530280B013A008B8EAE /* Animation.swift in Sources */,
 				310EB980280B0022000B9E4E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +358,7 @@
 		};
 		310EB98F280B0025000B9E4E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9185291BE3956DAB0F511F4 /* Pods-TernovskoyIA2.9.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +387,7 @@
 		};
 		310EB990280B0025000B9E4E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A81CF559EB3031ED72F5D8B /* Pods-TernovskoyIA2.9.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
